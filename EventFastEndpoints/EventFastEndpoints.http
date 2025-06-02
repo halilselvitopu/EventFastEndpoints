@@ -1,0 +1,6 @@
+@EventFastEndpoints_HostAddress = http://localhost:5148
+
+GET {{EventFastEndpoints_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
