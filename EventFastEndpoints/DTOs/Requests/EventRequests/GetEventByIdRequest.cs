@@ -6,5 +6,6 @@ namespace EventFastEndpoints.DTOs.Requests.EventRequests
     {
         [FromRoute]
         public int Id { get; set; }
+        public int Name { get; set; }
     }
 }
